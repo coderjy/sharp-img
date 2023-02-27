@@ -1,8 +1,8 @@
 # sharp-img
 
 # 安装之前先设置sharp的镜像地址，否则安装不成功
-`npm config set sharp_binary_host "https://npmmirror.com/mirrors/sharp"`
-`npm config set sharp_libvips_binary_host "https://npmmirror.com/mirrors/sharp-libvips"`
+1. `npm config set sharp_binary_host "https://npmmirror.com/mirrors/sharp"`
+2. `npm config set sharp_libvips_binary_host "https://npmmirror.com/mirrors/sharp-libvips"`
 
 # 使用方法
 1. 在scripts中添加"sharp":"node node_modules/sharp-img/index.js"
